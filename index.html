@@ -3,121 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Celine Lukito</title>
-  <style>
-    /* General reset */
-    body {
-      margin: 0;
-      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      background: #f9f9fb;
-    }
-
-    a {
-      color: #2a7ae2;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-
-    /* Layout */
-    .container {
-      display: grid;
-      grid-template-columns: 250px 1fr;
-      min-height: 100vh;
-    }
-
-    /* Sidebar */
-    .sidebar {
-      background: linear-gradient(180deg, #2a7ae2, #3052a0);
-      color: #fff;
-      padding: 2rem 1rem;
-    }
-    .sidebar h2 {
-      font-size: 1.4rem;
-      margin-bottom: 1rem;
-      border-bottom: 1px solid rgba(255,255,255,0.3);
-      padding-bottom: .5rem;
-    }
-    .sidebar ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    .sidebar li {
-      margin: .5rem 0;
-    }
-    .sidebar a {
-      color: #fff;
-      opacity: 0.9;
-    }
-    .sidebar a:hover {
-      opacity: 1;
-    }
-
-    /* Content */
-    .content {
-      padding: 2rem 3rem;
-    }
-    .header {
-      display: flex;
-      gap: 2rem;
-      align-items: center;
-    }
-    .header img {
-      width: 150px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    }
-    .header h1 {
-      margin: 0;
-      font-size: 2rem;
-      color: #2a2a2a;
-    }
-    .header p {
-      margin: .3rem 0;
-    }
-
-    h2 {
-      margin-top: 2rem;
-      font-size: 1.5rem;
-      color: #3052a0;
-      border-bottom: 2px solid #e5e5ef;
-      padding-bottom: .3rem;
-    }
-
-    ul {
-      margin: .5rem 0 1rem 1.5rem;
-    }
-    li {
-      margin-bottom: .5rem;
-    }
-
-    /* Footer */
-    footer {
-      margin-top: 2rem;
-      padding: 1rem 0;
-      text-align: center;
-      font-size: .9rem;
-      color: #777;
-    }
-
-    /* Responsive */
-    @media (max-width: 800px) {
-      .container {
-        grid-template-columns: 1fr;
-      }
-      .sidebar {
-        text-align: center;
-      }
-      .header {
-        flex-direction: column;
-        text-align: center;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
@@ -125,61 +11,91 @@
     <nav class="sidebar">
       <h2>Navigation</h2>
       <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#employment">Employment</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
-        <li><a href="Celine_CV.pdf">CV</a></li>
-        <li><a href="https://scholar.google.com/">Google Scholar</a></li>
-        <li><a href="https://github.com/">GitHub</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#work">Work Experience</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="Celine_CV.pdf">Download CV</a></li>
+        <li><a href="https://linkedin.com/in/celinelukito">LinkedIn</a></li>
+        <li><a href="https://github.com/clukito">GitHub</a></li>
       </ul>
     </nav>
 
     <!-- Main content -->
     <main class="content">
-      <div class="header">
+      <header class="header">
         <img src="UVic_pic.jpg" alt="Celine Lukito">
         <div>
           <h1>Celine Lukito</h1>
-          <p>Ph.D. Candidate, Mathematical & Statistical Sciences</p>
-          <p>Clemson University</p>
-          <p>Email: celine [at] clemson [dot] edu</p>
+          <p>Ph.D. Student in Mathematical Sciences, Clemson University</p>
+          <p>Email: <a href="mailto:clukito24@gmail.com">clukito24@gmail.com</a></p>
+          <p>Phone: 347-727-9299</p>
         </div>
-      </div>
+      </header>
 
       <section id="about">
         <h2>About Me</h2>
         <p>
-          I am a Ph.D. student in the School of Mathematical and Statistical Sciences at Clemson University.
-          My research interests include spatio-temporal statistics, environmental applications,
-          surrogate modeling, and the analysis of high-frequency data.
+          I am a Ph.D. student at Clemson University in the School of Mathematical and Statistical Sciences.  
+          My research focuses on computational mathematics, operations research, algorithm design, and applications of machine learning to large-scale problems.
         </p>
-      </section>
-
-      <section id="research">
-        <h2>Research</h2>
-        <p>
-          I have worked on statistical modeling of extremes, surrogate modeling of computer experiments,
-          and multiscale statistical methods. My recent projects involve climate and environmental
-          data analysis with applications to decision making under uncertainty.
-        </p>
-      </section>
-
-      <section id="employment">
-        <h2>Employment</h2>
-        <ul>
-          <li>Graduate Research Assistant, Clemson University (2019 – Present)</li>
-          <li>Machine Learning Intern, [Company Name], Summer 2023</li>
-          <li>Software Engineering Intern, [Company Name], Summer 2022</li>
-        </ul>
       </section>
 
       <section id="education">
         <h2>Education</h2>
         <ul>
-          <li>Ph.D. in Statistics, Clemson University (Expected 202X)</li>
-          <li>B.S. in Mechanical Engineering, National Cheng Kung University</li>
+          <li><strong>Ph.D. in Mathematical Sciences</strong>, Clemson University (May 2026 – May 2029)</li>
+          <li><strong>M.S. in Mathematical Sciences</strong>, Clemson University (Jul 2024 – May 2026)  
+            <br><em>Concentration: Computational Mathematics & Operations Research</em></li>
+          <li><strong>B.A. in Computer Science & Mathematics (Honors)</strong>, Molloy University (Sep 2020 – Dec 2023)  
+            <br><em>GPA: 4.00 Major, 3.97 Cumulative | Awards: President’s List, Presidential Dominican Scholar, Community Service Award</em></li>
         </ul>
+      </section>
+
+      <section id="research">
+        <h2>Research Experience</h2>
+        <ul>
+          <li><strong>Predicting Stock Market Prices using LSTM Networks</strong>, Molloy University (2023)  
+            Developed customized deep learning models achieving low MSE; presented at Molloy Faculty Scholarship Day.</li>
+          <li><strong>Automorphism of Phylogenetic Trees</strong>, Institute for Advanced Studies (2023)  
+            Selected as 1 of 30 students worldwide at Park City Math Institute; conducted research on quantum algorithms and symmetry in phylogenetic trees.</li>
+          <li><strong>Topological Data Analysis via Persistent Homology</strong>, Molloy University (2023)  
+            Presented at Kappa Mu Epsilon Biennial Convention and MAA Metro NY Conference; paper pending publication.</li>
+          <li><strong>AI BrainMaturity: Alzheimer’s Discrimination</strong>, University of Utah (2018–2020)  
+            Collaborated on MRI-based ML model achieving 87% diagnostic accuracy.</li>
+        </ul>
+      </section>
+
+      <section id="work">
+        <h2>Work Experience</h2>
+        <ul>
+          <li><strong>Eversana Intouch</strong>, Software Developer Intern (Jun–Dec 2023)</li>
+          <li><strong>Cornell Tech – Break Through Tech AI Fellow</strong> (May–Jul 2023)</li>
+          <li><strong>NavGurukul</strong>, Backend Developer Intern (Oct–Dec 2022)</li>
+          <li><strong>Campaign.com</strong>, Frontend Developer Intern (Jan–Aug 2022)</li>
+          <li><strong>Molloy University</strong>, Professional Tutor (Jul 2021 – Dec 2023)</li>
+        </ul>
+      </section>
+
+      <section id="leadership">
+        <h2>Leadership & Service</h2>
+        <ul>
+          <li>Head of Praise & Worship Team, Rose of Sharon Church (2024–present)</li>
+          <li>Youth Group Leader Coordinator (2022–present)</li>
+          <li>Head of Sustainability & Global Justice Initiative, Molloy University (2023)</li>
+          <li>Math Club President, Molloy University (2020–2023)</li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <p><strong>Programming:</strong> Python, JavaScript, R, HTML/CSS, TypeScript, SQL, Java</p>
+        <p><strong>Frameworks:</strong> React.js, Vue.js, React Native, Flask, Django, Node.js, Next.js</p>
+        <p><strong>Data Analytics & ML:</strong> TensorFlow, PyTorch, Scikit-learn, Pandas, Tableau, Power BI</p>
+        <p><strong>Tools:</strong> GitHub, Figma, Adobe Experience Manager, JIRA</p>
+        <p><strong>Languages:</strong> English & Indonesian (Native), Mandarin & Malay (Professional), ASL & Italian (Elementary)</p>
       </section>
 
       <footer>
