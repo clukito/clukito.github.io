@@ -35,10 +35,9 @@ Here are a few highlights from my portfolio:
 
 I'm always open to new opportunities and collaborations! Feel free to connect with me:
 
-- **Email**: [Your Email Address]
-- **LinkedIn**: [Link to your LinkedIn profile]
-- **GitHub**: [Link to your GitHub profile]
-- **[Other relevant platform, e.g., Portfolio Website, Twitter]**: [Link]
+- **Email**: clukito24@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/celinelukito/
+- **GitHub**: https://github.com/clukito
 
 ---
 
