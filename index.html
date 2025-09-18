@@ -1,131 +1,191 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title></title>
+  <meta charset="UTF-8">
+  <title>Celine Lukito</title>
+  <style>
+    /* General reset */
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f9f9fb;
+    }
+
+    a {
+      color: #2a7ae2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Layout */
+    .container {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      min-height: 100vh;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background: linear-gradient(180deg, #2a7ae2, #3052a0);
+      color: #fff;
+      padding: 2rem 1rem;
+    }
+    .sidebar h2 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      padding-bottom: .5rem;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .sidebar li {
+      margin: .5rem 0;
+    }
+    .sidebar a {
+      color: #fff;
+      opacity: 0.9;
+    }
+    .sidebar a:hover {
+      opacity: 1;
+    }
+
+    /* Content */
+    .content {
+      padding: 2rem 3rem;
+    }
+    .header {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+    .header img {
+      width: 150px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #2a2a2a;
+    }
+    .header p {
+      margin: .3rem 0;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      color: #3052a0;
+      border-bottom: 2px solid #e5e5ef;
+      padding-bottom: .3rem;
+    }
+
+    ul {
+      margin: .5rem 0 1rem 1.5rem;
+    }
+    li {
+      margin-bottom: .5rem;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 2rem;
+      padding: 1rem 0;
+      text-align: center;
+      font-size: .9rem;
+      color: #777;
+    }
+
+    /* Responsive */
+    @media (max-width: 800px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+      .sidebar {
+        text-align: center;
+      }
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
 </head>
 <body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Celine Lukito</div>
-<div class="menu-item"><a href="index.html">About Me</a></div>
-<div class="menu-category">Research</div>
-<div class="menu-item"><a href="research.html">Projects</a></div>
-<div class="menu-item"><a href="publications.html">Publications</a></div>
-<div class="menu-item"><a href="talk.html">Talks</a></div>
-<div class="menu-category">Teaching</div> 
-<div class="menu-item"><a href="teaching.html">Courses</a></div>
-<div class="menu-category">Mentoring</div> 
-<div class="menu-item"><a href="group.html">Students</a></div>
-<div class="menu-item"><a href="reu.html">REU</a></div>
-<div class="menu-item"><a href="samsi_under.html">SAMSI</a></div>
-<div class="menu-category">Working Groups</div>  
-<div class="menu-item"><a href="ENVR/ClemsonENVR.html">Clemson ENVR Group</a></div>
-<div class="menu-item"><a href="UQ/ClemsonUQ.html">Clemson UQ Group</a></div>
-<div class="menu-category">Service</div>  
-<div class="menu-item"><a href="service.html">Service</a></div>
-  
-  
-</td>
-<td id="layout-content">
-<h1>Celine Lukito</h1>
-<table class="imgtable"><tr><td>
-<img src="UVic_pic.jpg" alt="Celine Lukito" width="150px" height="220px" />&nbsp;</td>
-<td align="left"><p>Associate Professor, Ph.D.<br />
-  
-<a href="https://www.clemson.edu/science/departments/math-stat/">School of Mathematical and Statistical Sciences, Clemson University</a> <br />
-</p>
-<p><br />
-wkhuang<tt>AT</tt>clemson<tt>DOT</tt>edu<br/>
-O-221 Martin Hall<br />
-Clemson University<br />
-Clemson, SC 29634-0975</p>
-    
-<p><br />
-<a href="https://scholar.google.com/citations?user=Nje7yAsAAAAJ&hl=en&oi=ao">Google Scholar Profile</a><br />
-<a href="https://www.researchgate.net/profile/Whitney_Huang">ResearchGate</a><br />
-<a href="https://orcid.org/0000-0001-6036-8550">ORCID</a><br />
-<a href="https://github.com/whitneyhuang83">GitHub</a><br />
-<a href="WKHuang_CV_0808_2025.pdf">CV</a> <br /> </p>
-    
-    
-    
-</td></tr></table>
-<h2>About Me</h2>
-  
-  
-<p>I am currently an Associate Professor of Statistics at Clemson University, where I have been since August 2019. Prior to Clemson I was a <a href="http://www.canssi.ca/"> Canadian Statistical Sciences
-Institute (CANSSI)</a> / <a href="https://www.samsi.info/"> Statistical and Applied Mathematical Sciences Institute (SAMSI)</a>
-postdoctoral fellow at the <a href="https://www.uvic.ca/"> University of Victoria (UVic) </a>, affiliated with 
-<a href = "https://www.pacificclimate.org/">Pacific Climate Impacts Consortium</a> and 
-<a href= "https://www.uvic.ca/science/seos/">School of Earth and Ocean Sciences</a>  
-working with <a href = "https://www.pacificclimate.org/about-pcic/people/francis-zwiers"> Dr. Francis Zwiers </a> and
-<a href = "http://web.uvic.ca/~monahana/monahan.html">Prof. Adam Monahan</a>. Before joining UVic, I was a SAMSI/University of North Carolina postdoc under the supervision
-of <a href = "http://www.unc.edu/~rls/"> Prof. Richard Smith</a>. </p>
-  
-<p>I received my Ph.D. in Statistics from Purdue University in
-August 2017, where I was advised by <a href = "http://www.stat.purdue.edu/~zhanghao/index.html">Prof. Hao Zhang</a>. During my Ph.D. studies I was actively involved in the Research Network for Statistical Methods for Atmospheric and Oceanic Sciences <a href="https://www.statmos.washington.edu/">(STATMOS)</a>
-and the Center for Robust Decision Making on Climate and Energy Policy <a href="http://www.rdcep.org/">(RDCEP)</a>, working with <a href="https://galton.uchicago.edu/~stein/">Michael Stein</a>, <a href="http://geosci.uchicago.edu/~moyer/MoyerWebsite/Home%20Page/HomePage.html">Elisabeth Moyer</a> at the University of Chicago,
-and <a href="https://staff.ucar.edu/users/nychka">Doug Nychka</a> at the <a href="https://ncar.ucar.edu/">National Center for Atmospheric Research</a>.</p>    
-    
-<p>
-Before coming to Purdue, I earned a Master's degree in <a href="http://www.uakron.edu/statistics/">Statistics </a> from the University of Akron and a Bachelor's degree in <a href="http://www.me.ncku.edu.tw/enes/">Mechanical Engineering</a>
-from National Cheng Kung University, Taiwan.
-  
-<p>My research interests include statistics of extremes; spatio-temporal statistics; surrogate modeling of computer experiments;
-time-frequency analysis; multiscale statistical modeling; spatial point processes; environmental
-applications; and high-frequency physiological data analysis.</p>
-  
-  
-<h2>Employment</h2>
-<ul>
-<li><p> Associate Professor, School of Mathematical and Statistical Sciences,
-Aug. 2025 to Present</p>
-</li>
-<li><p> Assistant Professor, School of Mathematical and Statistical Sciences,
-Aug. 2019 to Aug. 2025</p>
-</li>
-<li><p> CANSSI Postdoctoral Fellow, Pacific Climate Impacts Consortium and School of Earth and Ocean Sciences,
-Aug. 2018 to July 2019</p>
-</li>
-<li><p> SAMSI Postdoctoral Fellow, 
-<a href = "https://www.samsi.info/programs-and-activities/year-long-research-programs/2017-18-program-on-mathematical-and-statistical-methods-for-climate-and-the-earth-system-clim/">
-Program on Mathematical and Statistical Methods for Climate and the Earth System (CLIM)</a>,  Aug. 2017 to July 2018</p>
-</li>
-</ul>  
-  
-  
-<h2>Education</h2>
-<ul>
-<li><p>Purdue University: Ph.D., Statistics, Aug. 2017</p>
-  <ul>
-  Thesis Topic: Statistics of Extremes with Applications in Climate  
-  </ul>  
-</li>
-</ul>
-<ul>
-<li><p>University of Akron: M.S., Statistics, Dec. 2009</p>
-</li>
-</ul>
-<ul>
-<li><p>National Cheng Kung University: B.S., Mechanical engineering, June. 2006</p>
-</li>
-</ul>
-  
-  
-<!-- <iframe src="https://calendar.google.com/calendar/embed?src=wkhuang%40g.clemson.edu&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> --> 
-  
+  <div class="container">
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#employment">Employment</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="Celine_CV.pdf">CV</a></li>
+        <li><a href="https://scholar.google.com/">Google Scholar</a></li>
+        <li><a href="https://github.com/">GitHub</a></li>
+      </ul>
+    </nav>
 
-<div id="footer">
-<div id="footer-text">
-Page generated 2025-08-08 14:23:42 EST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
-</div>
-</div>
-</td>
-</tr>
-</table>
+    <!-- Main content -->
+    <main class="content">
+      <div class="header">
+        <img src="UVic_pic.jpg" alt="Celine Lukito">
+        <div>
+          <h1>Celine Lukito</h1>
+          <p>Ph.D. Candidate, Mathematical & Statistical Sciences</p>
+          <p>Clemson University</p>
+          <p>Email: celine [at] clemson [dot] edu</p>
+        </div>
+      </div>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am a Ph.D. student in the School of Mathematical and Statistical Sciences at Clemson University.
+          My research interests include spatio-temporal statistics, environmental applications,
+          surrogate modeling, and the analysis of high-frequency data.
+        </p>
+      </section>
+
+      <section id="research">
+        <h2>Research</h2>
+        <p>
+          I have worked on statistical modeling of extremes, surrogate modeling of computer experiments,
+          and multiscale statistical methods. My recent projects involve climate and environmental
+          data analysis with applications to decision making under uncertainty.
+        </p>
+      </section>
+
+      <section id="employment">
+        <h2>Employment</h2>
+        <ul>
+          <li>Graduate Research Assistant, Clemson University (2019 – Present)</li>
+          <li>Machine Learning Intern, [Company Name], Summer 2023</li>
+          <li>Software Engineering Intern, [Company Name], Summer 2022</li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>Ph.D. in Statistics, Clemson University (Expected 202X)</li>
+          <li>B.S. in Mechanical Engineering, National Cheng Kung University</li>
+        </ul>
+      </section>
+
+      <footer>
+        © 2025 Celine Lukito | Last updated: September 2025
+      </footer>
+    </main>
+  </div>
 </body>
+</html>
